@@ -8,6 +8,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 import { NgChartsModule } from 'ng2-charts';
 import { HeroChartComponent } from './hero-chart/hero-chart.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HeroChartComponent } from './hero-chart/hero-chart.component';
     HeroesComponent,
     HeroDetailComponent,
     HeroChartComponent,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
