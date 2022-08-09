@@ -9,6 +9,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { NgChartsModule } from 'ng2-charts';
 import { HeroChartComponent } from './hero-chart/hero-chart.component';
 import { MessagesComponent } from './messages/messages.component';
+import { AppRoutingModule } from './app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { MessagesComponent } from './messages/messages.component';
     HeroDetailComponent,
     HeroChartComponent,
     MessagesComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    NgChartsModule
+    NgChartsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
